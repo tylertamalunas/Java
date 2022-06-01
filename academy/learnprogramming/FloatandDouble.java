@@ -17,10 +17,16 @@ public class FloatandDouble {
         int myIntValue = 5 / 3;
         float myFloatValue = 5f / 3f;
         double myDoubleValue = 5d / 3d;
+        double DoubleValue = 5.00 / 3.00;
         float FloatValue = (float) 5.25 / 3;
         System.out.println("myIntValue= " + myIntValue);
         System.out.println("myFloatValue= " + myFloatValue);
         System.out.println("myDoubleValue= " + myDoubleValue);
+        System.out.println("DoubleValue= " + DoubleValue);
         System.out.println("FloatValue= " + FloatValue);
+
+
+
+
     }
 }
