@@ -13,5 +13,8 @@ public class PrimitiveTypesChallenge {
         long firstLongValue = (50000L + (10L * (firstByteValue + firstShortValue + firstIntValue)));
 
         System.out.println(firstLongValue);
+
+        short shortTotal = (short) (1000 + 10 * (firstByteValue + firstShortValue + firstIntValue));
+        System.out.println(shortTotal);
     }
 }
