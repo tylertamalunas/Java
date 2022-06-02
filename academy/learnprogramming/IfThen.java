@@ -9,13 +9,17 @@ public class IfThen {
             System.out.println("It is not an Alien!");
             System.out.println("and Im scared of them.");
         }
-        int topScore = 81;
+        int topScore = 90;
         if (topScore == 100) {
             System.out.println("You got the top score!");
         }
         int secTopScore = 89;
-        if (secTopScore > topScore && topScore < 100) {
-            System.out.println("greater than second top scor and less than 100");
+        if ((topScore > secTopScore && topScore < 100)) {
+            System.out.println("greater than second top score and less than 100");
+        }
+
+        if ((topScore > 90) || (secTopScore <= 90)) {
+            System.out.println("either or both of the conditions are true");
         }
     }
 }
