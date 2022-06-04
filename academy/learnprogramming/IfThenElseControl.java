@@ -8,18 +8,22 @@ public class IfThenElseControl {
         int levelCompleted = 5;
         int bonus = 100;
 
-        calculateScore(true, 800, 5, 100);
+        int highScore = calculateScore(true, 800, 5, 100);
+        System.out.println("Your final score was " + highScore);
 
-        calculateScore(true, 10000, 8, 200);
+        highScore = calculateScore(true, 10000, 8, 200);
+        System.out.println("Your final score was " + highScore);
 
         }
 
-    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
+    public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
 
         if (gameOver) {
             int finalScore = score + (levelCompleted * bonus);
             finalScore += 2000;
-            System.out.println("Your final score was " + finalScore);
+            return finalScore;
+            } else {
+            return -1;
         }
     }
 }
