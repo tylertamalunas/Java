@@ -6,4 +6,8 @@ public class TeenNumberChecker {
 
         return ((firstInt >= 13 && firstInt <= 19) || (secInt >= 13 && secInt <= 19) || (thirdInt >= 13 && thirdInt <= 19));
     }
+    public static boolean isTeen(int firstInt) {
+
+        return (firstInt >= 13 && firstInt <= 19);
+    }
 }
