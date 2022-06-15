@@ -1,4 +1,4 @@
-package academy.learnprogramming;
+package academy.learnprogramming.challenges;
 
 public class PlayingCat {
     public static boolean isCatPlaying(boolean summer, int temperature) {

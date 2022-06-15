@@ -1,4 +1,4 @@
-package academy.learnprogramming;
+package academy.learnprogramming.challenges;
 
 public class LastDigitChecker {
     public static void main(String[] args) {

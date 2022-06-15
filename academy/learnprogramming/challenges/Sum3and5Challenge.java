@@ -1,4 +1,4 @@
-package academy.learnprogramming;
+package academy.learnprogramming.challenges;
 
 public class Sum3and5Challenge {
 

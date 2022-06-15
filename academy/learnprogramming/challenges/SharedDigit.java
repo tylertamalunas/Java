@@ -1,4 +1,4 @@
-package academy.learnprogramming;
+package academy.learnprogramming.challenges;
 
 public class SharedDigit {
     public static void main(String[] args) {

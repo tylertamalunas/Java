@@ -4,6 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println(NumberPalindrome.isPalindrome(1010));
+        Car porsche = new Car();
+        Car audi = new Car();
+        porsche.model = "Carrera";
     }
 }
