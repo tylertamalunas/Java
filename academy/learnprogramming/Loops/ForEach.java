@@ -1,4 +1,4 @@
-package academy.learnprogramming;
+package academy.learnprogramming.Loops;
 
 import java.util.ArrayList;
 

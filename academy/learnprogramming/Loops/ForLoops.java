@@ -1,4 +1,4 @@
-package academy.learnprogramming;
+package academy.learnprogramming.Loops;
 
 public class ForLoops {
 

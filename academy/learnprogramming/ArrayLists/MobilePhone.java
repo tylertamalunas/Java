@@ -25,6 +25,9 @@ public class MobilePhone {
         if (!myContacts.contains(oldContact)) {
             System.out.println(oldContact + " not found");
             return false;
+        } else if (myContacts.contains(newContact)) {
+            System.out.println("Contact with name " + newContact + " already exists");
+            return false;
         }
         this.myContacts.set(contactExists, newContact);
         System.out.println(oldContact + " replaced with " + newContact);
@@ -55,15 +58,15 @@ public class MobilePhone {
         return -1;
     }
 
-    public String queryContact(Contact name) {
-        if (myContacts.contains(name)) {
-            return name.getName();
-        } else {
-            return null;
+    public Contact queryContact(String name) {
+        int position = findContact(name);
+        if (position >- 0) {
+            return this.myContacts.get(position);
         }
+        return null;
     }
 
-    public void printContact() {
+    public void printContacts() {
         for (int i = 0; i < this.myContacts.size(); i++) {
             System.out.println((i+1) +
                     this.myContacts.get(i).getName() + " -> " +

@@ -1,4 +1,4 @@
-package academy.learnprogramming;
+package academy.learnprogramming.Exceptions;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
