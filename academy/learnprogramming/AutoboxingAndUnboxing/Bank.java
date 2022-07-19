@@ -34,15 +34,15 @@ public class Bank {
         }
     }
 
-    public boolean addCustomerTransaction(String branch, String customer, double transaction) {
-        //return true if transaction added successfully
-    }
-
-    public Branch findBranch(String branch) {
-        // return Branch if exists, otherwise null
-    }
-
-    public boolean listCustomers(String branch, boolean transactions) {
-        //return true if branch exists. print out list of customers
-    }
+//    public boolean addCustomerTransaction(String branch, String customer, double transaction) {
+//        //return true if transaction added successfully
+//    }
+//
+//    public Branch findBranch(String branch) {
+//        // return Branch if exists, otherwise null
+//    }
+//
+//    public boolean listCustomers(String branch, boolean transactions) {
+//        //return true if branch exists. print out list of customers
+//    }
 }

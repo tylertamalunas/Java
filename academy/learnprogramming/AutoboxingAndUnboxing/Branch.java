@@ -1,7 +1,5 @@
 package academy.learnprogramming.AutoboxingAndUnboxing;
 
-import academy.learnprogramming.ArrayLists.Contact;
-
 import java.util.ArrayList;
 
 public class Branch {
@@ -21,24 +19,24 @@ public class Branch {
         return customers;
     }
 
-    public boolean newCustomer(String name, double transaction) {
-        //return true if customer added successful
-        if (!customers.contains(name)) {
-            customers.add(customers.get(name));
+//    public boolean newCustomer(String name, double transaction) {
+//        //return true if customer added successful
+//        if (!customers.contains(name)) {
+//            customers.add(customers.get(name));
+//
+//            return true;
+//        } else {
+//            System.out.println(name + " already a customer.");
+//            return false;
+//        }
+//    }
 
-            return true;
-        } else {
-            System.out.println(name + " already a customer.");
-            return false;
-        }
-    }
-
-    public boolean addCustomerTransaction(String name, double transaction) {
-        //true if transaction added succesfully
-        // false if failed to add
-    }
-
-    public Customer findCustomer(String name) {
-        // return customer if exists, otherwise return null
-    }
+//    public boolean addCustomerTransaction(String name, double transaction) {
+//        //true if transaction added succesfully
+//        // false if failed to add
+//    }
+//
+//    public Customer findCustomer(String name) {
+//        // return customer if exists, otherwise return null
+//    }
 }
